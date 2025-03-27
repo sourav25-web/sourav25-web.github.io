@@ -139,9 +139,6 @@ You can easily customize the content by editing the text in the HTML file, inclu
 - GitHub: [github.com/sourav25-web](https://github.com/sourav25-web)
 - Instagram: [@s0urav._25](https://www.instagram.com/s0urav._25)
 
-## License
-
-MIT License
 
 ## Author
 
