@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Swain | Full Stack Python Developer & DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Sourav Swain</span></h1>
+            <h2>Full Stack Python Developer & DevOps Engineer</h2>
+            <p>I build robust web applications and implement efficient DevOps solutions.</p>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/swainsourav25" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sourav25-web" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/s0urav._25" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:linkwithsourav25@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <!-- 
+                    Alternative method: Uncomment the img tag below and comment out 
+                    the background-image in styles.css to use this approach instead
+                -->
+                <img src="./Images/profile-photo.jpeg" alt="Sourav Swain">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p>Get to know me better</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <!-- 
+                    Alternative method: Uncomment the img tag below and comment out 
+                    the background-image in styles.css to use this approach instead
+                -->
+                <img src="./Images/profile-photo.jpeg" alt="Sourav Swain">
+            </div>
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>I'm a Civil Engineering graduate who transitioned to IT, specializing in Full Stack Python Development and DevOps Engineering. As a fresher in the tech industry, I combine my analytical background with technical skills to deliver efficient and scalable web solutions.</p>
+                
+                <h3>My Skills</h3>
+                <div class="skills">
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Django</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript/HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>DevOps/Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn primary-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>My Services</h2>
+            <p>What I can do for you</p>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Full Stack Development</h3>
+                <p>Custom web application development using Python, Django, and modern front-end technologies to create responsive solutions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>DevOps Solutions</h3>
+                <p>Implementing efficient deployment pipelines, version control workflows, and automation to streamline development processes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Management</h3>
+                <p>Designing and optimizing SQL databases to ensure data integrity, performance, and security for your applications.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Responsive Web Design</h3>
+                <p>Creating websites that work flawlessly across all devices using HTML, CSS, Bootstrap, and Tailwind CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>My Portfolio</h2>
+            <p>Some of my recent work</p>
+        </div>
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="python">Python Projects</button>
+            <button class="filter-btn" data-filter="django">Django Projects</button>
+        </div>
+        
+        <div class="projects-slider">
+            <div class="project-card" data-category="django">
+                <h3>Hospital Management System</h3>
+                <p class="project-category">Django Project</p>
+                <p class="project-description">A comprehensive solution for managing hospital operations, patient records, and administrative tasks. Features a clean interface with modern design.</p>
+                <a href="https://github.com/sourav25-web/Hospital-Management-System-Receptionist-Interface" target="_blank" class="btn primary-btn">View Project</a>
+            </div>
+            <div class="project-card" data-category="web">
+                <h3>TasteHaven Food Delivery</h3>
+                <p class="project-category">Web Development</p>
+                <p class="project-description">A modern, responsive food delivery website frontend with intuitive UI for browsing and ordering food online. Features clean design and easy navigation.</p>
+                <a href="https://github.com/sourav25-web/Responsive-Food-Delivery" target="_blank" class="btn primary-btn">View Project</a>
+            </div>
+            <div class="project-card" data-category="python">
+                <h3>Auto Reply Bot</h3>
+                <p class="project-category">Python Project</p>
+                <p class="project-description">An automated chat assistant using Google's Gemini AI that monitors conversations and generates contextually appropriate responses.</p>
+                <a href="https://github.com/sourav25-web/Auto-Reply-Bot" target="_blank" class="btn primary-btn">View Project</a>
+            </div>
+            <div class="project-card" data-category="django">
+                <h3>Student Management System</h3>
+                <p class="project-category">Django Project</p>
+                <p class="project-description">A Django-based application for efficient student information management with a responsive Bootstrap interface and CRUD operations.</p>
+                <a href="https://github.com/sourav25-web/Student-management-system" target="_blank" class="btn primary-btn">View Project</a>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots"></div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <p>Get in touch</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+916372520177">+91 6372520177</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Location</h3>
+                        <p>Bengaluru, Karnataka, 560016</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p><a href="mailto:linkwithsourav25@gmail.com">linkwithsourav25@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://linkedin.com/in/swainsourav25" target="_blank">linkedin.com/in/swainsourav25</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>GitHub</h3>
+                        <p><a href="https://github.com/sourav25-web" target="_blank">github.com/sourav25-web</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Instagram</h3>
+                        <p><a href="https://www.instagram.com/s0urav._25" target="_blank">@s0urav._25</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Sourav Swain. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/swainsourav25" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sourav25-web" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/s0urav._25" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:linkwithsourav25@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
