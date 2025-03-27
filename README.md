@@ -37,6 +37,11 @@ A Django-based application for efficient student information management with a r
 - [GitHub Repository](https://github.com/sourav25-web/Student-management-system)
 - **Technologies**: Django, HTML, CSS, Bootstrap, SQLite
 
+### Portfolio Website
+A modern, responsive portfolio website built with HTML, CSS, and JavaScript featuring smooth animations, project filtering, and mobile-friendly design.
+- [GitHub Repository](https://github.com/sourav25-web/sourav25-web.github.io)
+- **Technologies**: HTML, CSS, JavaScript
+
 ## Features of This Portfolio
 
 - **Responsive Design**: Works perfectly on all devices and screen sizes
